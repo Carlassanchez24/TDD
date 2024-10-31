@@ -27,7 +27,7 @@ public class FizzBuzzTest {
         assertEquals("Buzz", result, "Expected Buzz when number is divisible by 5");
     }
     @Test
-    @DisplayName("If the number is divisible by 3 and 5, return Buzz")
+    @DisplayName("If the number is divisible by 3 and 5, return FizzBuzz")
     public void test_whenTheNumberIsMultipleByThreeAndFive_thenReturnFizzBuzz() {
         // Given
         Fizzbuzz fizzbuzz = new Fizzbuzz();
