@@ -32,8 +32,8 @@ public class FizzBuzzTest {
         // Given
         Fizzbuzz fizzbuzz = new Fizzbuzz();
         // When
-        String result = fizzbuzz.checkNumber(10);
+        String result = fizzbuzz.checkNumber(15);
         // Then
-        assertEquals("Buzz", result, "Expected FizzBuzz when number is divisible by 3 and 5");
+        assertEquals("FizzBuzz", result, "Expected FizzBuzz when number is divisible by 3 and 5");
     }
 }
